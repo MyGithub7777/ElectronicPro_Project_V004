@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "nodenext",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "outDir": "./.dist",
+    "sourceMap": true,
+    "types": [
+      "node",
+      "@cucumber/cucumber"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
